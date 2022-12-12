@@ -1,0 +1,76 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    height: auto;
+    box-shadow: 0px 1px 8px #88888888;
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color: white;
+}
+
+.icons {
+    font-size: 1rem;
+    margin-left: 1rem;
+    flex: .48;
+}
+
+
+.Logo .headcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.Logo .headcontainer img {
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.Logo .headcontainer span {
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 774px) {
+    .Logo .headcontainer img {
+        width: 35px;
+        height: 30px;
+    }
+    
+    .Logo .headcontainer span {
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    .Logo {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 474px) {
+    .Logo .headcontainer {
+        padding-right: 3rem;
+        gap: 5px;
+    }
+    
+    .Logo {
+        width: 100%;
+    }
+
+    .icons {
+        margin-left: 0%;
+    }
+}
+
+
+@media screen and (max-width: 384px) {
+    .Logo .headcontainer span {
+        font-weight: 600;
+        font-size: .9rem;
+    }
+}

@@ -1,0 +1,7 @@
+.cat__btn:hover {
+    background-color: rgb(231, 224, 224);
+}
+
+.cat__btn.active {
+    background-color: rgb(228, 227, 227);
+}
